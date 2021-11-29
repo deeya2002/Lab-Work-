@@ -1,3 +1,4 @@
+#area of right angled triangle
 h = int (input("Enter height?"))
 b = int (input("Enter breadth?"))
 area = (h*b)//2
