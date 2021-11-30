@@ -1,4 +1,4 @@
-num = int(input(" Entr numbers? : "))
+num = 20
 sum = 0;
 
 for i in range(1, num + 1):
