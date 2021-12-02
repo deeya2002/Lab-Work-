@@ -1,9 +1,4 @@
-num = 10
-sum = 0;
-
-for i in range(1, num + 1):
-
-    if(not (i % 2) == 0):
-        sum += i;
-
-print("\n Sum of odd numbers from 1 to", num, "is :", sum)
+#sum of 10 even number
+num = range (2,11,2)
+sum = sum(num)
+print (f"the sum of first ten even number is {sum}")
