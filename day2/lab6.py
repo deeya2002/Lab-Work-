@@ -3,28 +3,20 @@
 # run to university. You jog the first mile at 7mph; then run the next two at15mph; before
 # jogging the last at 7mph again. Will this be quicker or slower than the bus?
 distance = 4
-x = 25
-
-# bus stops at 10 places and spent 2 minutes
-stop_Time = 10*2
-e = 1/x
-t = e*60
-total_time = t+stop_Time
-print(f"the total time to reach university by bus{total_time}")
-
-# the runs with the speed of 7 mph
-y = 7
-f = 1/y
-time_1 = f*60
-z = 15
-g = 2/z
-time_2 = g*60
-a = 7
-h = 1/a
-time_3 = h*60
-total_time2 = time_1+time_2+time_3
-print(f"the total time foe walking is {total_time2}")
-
-if total_time2 > total_time:
-    print(f"walking is faster to reach university")
+velocity = 25
+T1 = ((distance/velocity)*60)
+#  since the bus spend wo minutes in each ten steps so 2*0
+T2 = 20
+Total1 = T1+T2
+print(f"totl time taken by bus is{Total1}")
+# when jogging
+J1 = ((1/7)*60)
+J2 = ((2/15)*60)
+J3 = ((1/7)*60)
+Total2 = J1+J2+J3
+print (f"The total time taken while running is {Total2}")
+if Total1 > Total2 :
+    print(f"Going by bus is slower.")
+else:
+    print(f"Going on foot is quicker.")
 
