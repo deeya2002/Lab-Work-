@@ -3,7 +3,7 @@
 
 m = int(input("enter the mass:"))
 h = int(input("enter the height :"))
-BMI = m/h
+BMI = (m / (h*h))
 print("the BMI of a person is {} kg\m\u00b2.".format(BMI))
 
 

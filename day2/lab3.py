@@ -7,6 +7,7 @@
 n = int(input("Enter an integer?"))
 hours = n // 60
 minutes = n % 60
-print(hours,minutes)
+print(f"the hours is {hours}")
+print(f"the minutes is {minutes}")
 
 

@@ -11,5 +11,5 @@
 a = int(input("Enter the number of student in first class?"))
 b = int(input("Enter the number of student in second class?"))
 c = int(input("Enter the number of student in third class?"))
-sum = a//2+b//2+c//2+a%2+b%2+c%2
+sum = (a//2+b//2+c//2+a%2+b%2+c%2)
 print(f" total no. of benches we need:{sum} ")
